@@ -28,7 +28,7 @@ We used three datasets in this lab. In order to train our facial detection model
 
 ### Defining the DB-VAE loss function
 
-For **face images**, our loss function will have two components:
+loss function have two components:
 
 
 1.   **VAE loss ($L_{VAE}$)**: consists of the latent loss and the reconstruction loss.
