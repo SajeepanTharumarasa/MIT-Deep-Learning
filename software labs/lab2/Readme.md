@@ -12,9 +12,9 @@ We build a facial detection model that learns the *latent variables* underlying 
 
 We used three datasets in this lab. In order to train our facial detection models, we need a dataset of positive examples (i.e., of faces) and a dataset of negative examples (i.e., of things that are not faces). We use these data to train our models to classify images as either faces or not faces. Finally, we need a test dataset of face images. Since we're concerned about the potential *bias* of our learned models against certain demographics, it's important that the test dataset we use has equal representation across the demographics or features of interest. In this lab, we consider skin tone and gender. 
 
-1.   **Positive training data**: [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html). A large-scale (over 200K images) of celebrity faces.   
-2.   **Negative training data**: [ImageNet](http://www.image-net.org/). Many images across many different categories. We'll take negative examples from a variety of non-human categories. 
-[Fitzpatrick Scale](https://en.wikipedia.org/wiki/Fitzpatrick_scale) skin type classification system, with each image labeled as "Lighter'' or "Darker''.
+1.   **Positive training data**: CelebA Dataset. A large-scale (over 200K images) of celebrity faces.   
+2.   **Negative training data**: ImageNet. Many images across many different categories. We'll take negative examples from a variety of non-human categories. 
+Fitzpatrick Scale skin type classification system, with each image labeled as "Lighter'' or "Darker''.
 
 ## Variational autoencoder (VAE) for learning latent structure
 
